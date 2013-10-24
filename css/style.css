@@ -140,10 +140,49 @@ color: #fff;
 font-size: 18px;
 }
 
-$spacer p {
+#spacer p {
 margin-top: 22px;
 width: auto;
 position: absolute;
 left: 50%;
 margin-right: -480px;
+}
+
+#spacer .search {
+margin-top: 15px;
+width: auto;
+position: absolute;
+right: 50%;
+margin-right: -480px;
+}
+
+#boxcontent {
+width: auto;
+max-width: 900px;
+margin: 0 auto;
+padding: 70px 0 45px 0;
+}
+
+#boxocntent article {
+float: left;
+width: 250px;
+margin-right: 45px;
+font-size: 14px;
+}
+
+#boxcontent article h3 {
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+margin-bottom: 10px;
+margin-left: 75px;
+}
+
+#boxcontent article img {
+float: left;
+}
+
+#boxconent article p {
+line-height: 25px;
+font-family: 'Open Sans', sans-serif;
+margin-left: 75px;
 }
