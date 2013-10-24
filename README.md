@@ -1,4 +1,6 @@
-html5repo
+HTML5 REPOSITORY
 =========
 
-Repo for HTML5 Training and code sharing with a private circle of friends
+This is my repository for private usage along to the storage of my private work + training. 
+<br /><b>Please don't use the files commited in here. Thank you for understanding and have a nice day
+<br /><b>Copyright (C) 2013  Telmo Rodrigues
