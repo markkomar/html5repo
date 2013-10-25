@@ -54,6 +54,12 @@ body {
 	color: #000;
 	font-size: 14px;
 	font-family: Arial,sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 h1 {
 	color: #21a97e;
@@ -74,6 +80,9 @@ a:visited {
 		}
 img { 
 	display:block;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 	}
 	
 	
@@ -116,9 +125,6 @@ position: absolute;
 top: 5px;
 left: 5px;
 }
-
-
-
 
 nav#primary {
 	z-index: 5;

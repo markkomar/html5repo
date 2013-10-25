@@ -15,6 +15,39 @@
 		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
 		<script src="js/parallax.js"></script>
 		<script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+		<script language=JavaScript>
+
+var message="Sorry, you can't right-click on this page :(";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+</script>
+		
+		
 	</head>
 
 	<body>
@@ -23,7 +56,6 @@
 			
 			<header id="branding">
 				<h1>My Curriculum Vitae</h1>
-				<img id="pticon" src="img/pt-icon.png"  width="16" height="11" alt="pt_pt"/>
 			</header>
 			
 			<nav id="primary">
@@ -155,7 +187,7 @@
 			</div>
 		
 		</div>
-	
+
 	</body>
   
 </html>
