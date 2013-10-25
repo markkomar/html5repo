@@ -1,6 +1,6 @@
 body
 {
-	border-top:5px solid #e56038;
+	border-top:0px solid #e56038;
 	background:#ebe8de;
 	font-family: 'Open Sans', sans-serif;
 	color:#333333;
@@ -392,7 +392,7 @@ footer
 	position:relative;
 	clear:both;
 	width:auto;
-	height:350px;
+	height:70px;
 	background:#333333;
 }
 
