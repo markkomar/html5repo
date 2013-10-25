@@ -75,6 +75,8 @@ a:visited {
 img { 
 	display:block;
 	}
+	
+	
 p {
 	margin:1em 0;
 	}
@@ -107,6 +109,14 @@ font-weight: bold;
 		font-size: 18px;
 		font-weight: bold;
 		}
+
+#branding img {
+float: right;
+position: absolute;
+top: 5px;
+left: 5px;
+}
+
 
 
 
