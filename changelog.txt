@@ -1,0 +1,95 @@
+Oct 25, 2013
+
+    Separated Javascript from HTML. Server-side now
+    Badspeed authored 13 hours ago
+
+    Right-click prevention script
+    Badspeed authored 13 hours ago
+
+    Prevent text selection
+    Badspeed authored 13 hours ago
+
+    More changes to linking
+    9ea8af6acf Browse code
+    Badspeed authored 16 hours ago
+
+    Final state of the page …
+    Badspeed authored 17 hours ago
+
+    missing file
+    Badspeed authored 20 hours ago
+
+    Right Click and Text Hightlight prevention
+    Badspeed authored 20 hours ago
+
+    few changes do the display
+    Badspeed authored 21 hours ago
+
+    Added my CV Project
+    Badspeed authored a day ago
+
+Oct 24, 2013
+
+
+    Bug fixes on the display and added more js files
+    Badspeed authored a day ago
+
+    CSS Bug fixes
+    Badspeed authored 2 days ago
+
+    Responsive function for mobile phones
+    Badspeed authored 2 days ago
+
+    Slider Script
+    Badspeed authored 2 days ago
+
+    More CSS
+    Badspeed authored 2 days ago
+
+    003a557 Continuation …
+    Badspeed authored 2 days ago
+
+    Placeholders
+    Badspeed authored 2 days ago
+
+    More CSS
+    Badspeed authored 2 days ago
+
+    Started CSS 3 …
+    Badspeed authored 2 days ago
+
+    Killed whitespace
+    Badspeed authored 2 days ago
+
+    Finished the structure
+    Badspeed authored 2 days ago
+
+    Removed filler text and 1 menu item
+    Badspeed authored 2 days ago
+
+    More core scripting
+    Badspeed authored 2 days ago
+
+    Removed non-needed files
+    Badspeed authored 2 days ago
+
+    Added page CSS file and more scripting
+    Badspeed authored 2 days ago
+
+    62dc632 Part2
+    Badspeed authored 2 days ago
+
+    Added assets for the page script
+    Badspeed authored 2 days ago
+
+    #c2b99ff forgot the css
+    Badspeed authored 2 days ago
+
+    Inicial coding for the responsive part + css
+    Badspeed authored 2 days ago
+
+    Initial commit
+    Badspeed authored 2 days ago
+   
+
+
