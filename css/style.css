@@ -13,6 +13,7 @@
     transform: translateY(36px);
     transition: all 0.25s ease-out 0s;
     width: auto;
+	cursor: pointer;
 }
 
 .wrapper .tooltip:before {
