@@ -2,7 +2,7 @@
   $host = "localhost";
   $db_uname = "root";
   $db_pass = "";
-  $database = "telmo";
+  $database = "site";
   $dbtable = "likes";
   
   $conn = mysql_connect($host,$db_uname,$db_pass) or die(mysql_error());
