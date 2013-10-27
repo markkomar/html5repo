@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html>
+<!-- WEBSITE CREATED AND CODED BY TELMO RODRIGUES - ANY UNAUTHORIZED USE WILL BE CONSIDERED THEFT OF INTELECTUAL PROPERTY.
+PLEASE RESPECT THE WORK OF THE OTHERS 
+-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Telmo R - Professional Page</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+ 
+        <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
+		
+        <script src="js/modernizr.js"></script>
+        <script src="js/respond.min.js"></script>
+      
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/1.7.2.jquery.min"><\/script>')</script>
+        
+        <script src="lightbox/js/lightbox.js"></script>
+        <script src="js/prefixfree.min.js"></script>
+        <script src="js/jquery.slides.min.js"></script>
+
+	</head>
+	<style>
+	
+	body
+{
+	border-top:0px solid #e56038;
+	background:#ebe8de;
+	font-family: 'Open Sans', sans-serif;
+	color:#333333;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+	.container{
+		margin: 10% 30%;;
+		padding:2px;
+		font-family: verdana;
+		font-size: 12px;
+	}
+	#button-container-like{
+		background: -moz-linear-gradient(bottom, #dadada, #fff);
+		background: -webkit-gradient(linear, center bottom, center top, from(#dadada), to(#fff)); 		
+		border: 1px solid #CCCCCC;
+		border-radius: 3px 0px 0px 3px;
+		color: #000000;
+		cursor: pointer;
+		height:2.4em;
+		width : 70px;
+		font-family: verdana;
+		font-size: 12px;
+		line-height: 2em;
+		float:left;
+	}
+	#button-container-unlike{
+		background: -moz-linear-gradient(bottom, #dadada, #fff);
+		background: -webkit-gradient(linear, center bottom, center top, from(#dadada), to(#fff)); 		
+		border: 1px solid #CCCCCC;
+		border-left: none;
+		border-radius: 0px 3px 3px 0px;
+		color: #000000;
+		cursor: pointer;
+		height: 2.4em;
+		width : 35px;
+		font-family: verdana;
+		font-size: 12px;
+		line-height: 2em;
+		float:left;
+	}
+	.thumbs-up{
+		background : url("img/icons.png") no-repeat scroll 2px -255px transparent;
+		position: relative;
+		height: 20px;
+		display:block;
+		width: 20px;
+		clear: right;
+		float: left;
+	}
+	.thumbs-down{
+		background : url("ing/icons.png") no-repeat scroll -63px -50px transparent;
+		position: relative;
+		height: 20px;
+		display:block;
+		width: 20px;
+		clear: right;
+		float: left;
+		margin-right: 4px;
+	}
+	.tup-hover{
+		background : url("img/icons.png") no-repeat scroll -37px -138px transparent;
+	}
+	.tdown-hover{
+		background : url("img/icons.png") no-repeat scroll -36px -255px transparent;
+	}
+	.stats{
+		border-radius: 5px;
+		border : 1px solid #838383;
+		display: block;
+		clear:left;
+		margin-top: 30px;
+		display: none;
+		height: auto;
+		padding: 5px;
+		width: 500px;
+	}
+	.stat-details .close{
+		background : url("img/icons.png") no-repeat scroll 0px -132px transparent;
+		float: right;
+		height: 17px;
+		width: 17px;
+		margin:0px;
+		padding:0px;
+	}
+	.stat-details table{
+		font-size: 12px;
+	}
+	#small{
+		font-size: 10px;
+		color : #949494;
+	}
+	.bar{
+		height:10px;
+		display:inline-block;
+	}
+	.green{
+		background: #64F141;
+		border: 1px solid #148507;
+	}
+	.red{
+		background: #FF4F4F;
+		border: 1px solid #D50202;
+	}
+	.stat-option{
+		display:block;
+		line-height:20px;
+		margin-top:5px;
+		padding-top:3px;
+	}
+	.close{
+		cursor: pointer;
+	}
+  </style>
+
+ </head>
+ <body>
+	<div class="container">
+		<button id="button-container-like" class="option" value="1"><a class="thumbs-up"></a>Like</button>
+		<button id="button-container-unlike" class="option" value="0"><a class="thumbs-down"></a></button>
+		<div class="stats"></div>
+		<input type="hidden" id="item" value="34">
+	</div>  
+ </body>
+</html>
+<script language="javascript">
+<!--
+	$("button").hover(
+		function(){
+			if($(this).val() == "1")   
+				$(this).find(".thumbs-up").addClass("tup-hover");
+			else
+				$(this).find(".thumbs-down").addClass("tdown-hover");
+		},
+		function(){
+			if($(this).val() == "1") {
+				$(this).find(".thumbs-up").removeClass("tup-hover");
+				$(this).find(".thumbs-up").addClass("thumbs-up");
+			}else{
+				$(this).find(".thumbs-down").removeClass("tdown-hover");
+				$(this).find(".thumbs-down").addClass("thumbs-down");
+			}	
+		}
+	);
+
+	$(".close").live("click",function(){
+		$(".stats").slideUp("fast");
+	});
+
+	$(".option").click(function(){
+		 var option = $(this).val();
+		 var item	= $("#item").val();
+		 
+		 $(".stats").slideDown("fast").html("Loading....");
+		 $.ajax({
+		   type: "POST",
+		   url: "ajax_server.php",
+		   data: "option="+option+"&item="+item,
+		   success: function(responce){	
+			    var json = jQuery.parseJSON(responce);
+				var total = parseInt(json.likes) + parseInt(json.dislikes);
+				
+				option = (option == "1") ? "Liked" : "Disliked" ;
+				var likes	 = (parseInt(json.likes) * 100 ) / total;
+				var dislikes = (parseInt(json.dislikes) * 100 ) / total;
+
+				$(".stats").html('<div class="stat-details"><span class="close"></span>You '+option+' this item. Thanks for the feedback !<br><br><b>Rating for this item</b> <span id="small"> ('+total+' total)</span><table border="0" width="100%"><tr><td width="25px"><span class="thumbs-up"></span></td><td width="50px;">'+json.likes+'</td><td><div class="bar green" style="width:'+likes+'%;"></div></td></tr><tr><td><span class="thumbs-down"></span></td><td>'+json.dislikes+'</td><td><div class="bar red" style="width:'+dislikes+'%;"></div></td></tr></table>');
+		   }
+		 });  
+	});
+//-->
+</script>

@@ -1,0 +1,102 @@
+
+	#button-container-like{
+		background: -moz-linear-gradient(bottom, #dadada, #fff);
+		background: -webkit-gradient(linear, center bottom, center top, from(#dadada), to(#fff)); 		
+		border: 1px solid #CCCCCC;
+		border-radius: 3px 0px 0px 3px;
+		color: #000000;
+		cursor: pointer;
+		height:2.4em;
+		width : 70px;
+		font-family: verdana;
+		font-size: 12px;
+		line-height: 2em;
+		float:left;
+	}
+	#button-container-unlike{
+		background: -moz-linear-gradient(bottom, #dadada, #fff);
+		background: -webkit-gradient(linear, center bottom, center top, from(#dadada), to(#fff)); 		
+		border: 1px solid #CCCCCC;
+		border-left: none;
+		border-radius: 0px 3px 3px 0px;
+		color: #000000;
+		cursor: pointer;
+		height: 2.4em;
+		width : 35px;
+		font-family: verdana;
+		font-size: 12px;
+		line-height: 2em;
+		float:left;
+	}
+	.thumbs-up{
+		background : url("img/icons.png") no-repeat scroll 2px -255px transparent;
+		position: relative;
+		height: 20px;
+		display:block;
+		width: 20px;
+		clear: right;
+		float: left;
+	}
+	.thumbs-down{
+		background : url("img/icons.png") no-repeat scroll -63px -50px transparent;
+		position: relative;
+		height: 20px;
+		display:block;
+		width: 20px;
+		clear: right;
+		float: left;
+		margin-right: 4px;
+	}
+	.tup-hover{
+		background : url("img/icons.png") no-repeat scroll -37px -138px transparent;
+	}
+	.tdown-hover{
+		background : url("img/icons.png") no-repeat scroll -36px -255px transparent;
+	}
+	.stats{
+		border-radius: 5px;
+		border : 1px solid #838383;
+		display: block;
+		clear:left;
+		margin-top: 30px;
+		display: none;
+		height: auto;
+		padding: 5px;
+		width: 500px;
+	}
+	.stat-details .close{
+		background : url("img/icons.png") no-repeat scroll 0px -132px transparent;
+		float: right;
+		height: 17px;
+		width: 17px;
+		margin:0px;
+		padding:0px;
+	}
+	.stat-details table{
+		font-size: 12px;
+	}
+	#small{
+		font-size: 10px;
+		color : #949494;
+	}
+	.bar{
+		height:10px;
+		display:inline-block;
+	}
+	.green{
+		background: #64F141;
+		border: 1px solid #148507;
+	}
+	.red{
+		background: #FF4F4F;
+		border: 1px solid #D50202;
+	}
+	.stat-option{
+		display:block;
+		line-height:20px;
+		margin-top:5px;
+		padding-top:3px;
+	}
+	.close{
+		cursor: pointer;
+	}
