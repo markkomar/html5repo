@@ -10,7 +10,7 @@ Quotation[6] = "\"First, solve the problem. Then, write the code. - John Johnson
 Quotation[7] = "\"Programs must be written for people to read, and only incidentally for machines to execute. - Abelson / Sussman\"";
 Quotation[8] = "\"Good programmers use their brains, but good guidelines save us having to think out every case - Francis Glassborow	\"";
 Quotation[9] = "\"If debugging is the process of removing software bugs, then programming must be the process of putting them in. - Edsger Dijkstra\"";
-
+Quotation[10] = "\ Choose a job you love, and you will never have to work a day in your life. - Confucius\"";
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
 function showQuotation(){document.write(Quotation[whichQuotation]);}
