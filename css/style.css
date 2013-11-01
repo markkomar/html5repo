@@ -97,6 +97,17 @@ input[type=submit]
 	color: #fff;
 }
 
+.counter{
+background-color:transparent;
+color:#e56038;
+font-weight:bold;
+font-family: 'Baumans', cursive;
+position: relative;
+left: 1040px;
+position: relative;
+top: -117px;
+}
+
 p
 {
 	margin:5px 0;
