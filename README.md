@@ -1,4 +1,4 @@
-HTML5 REPOSITORY - ON HOLD FOR NOW
+Telmo R | Dev - Personal Project
 =========
 
 This is my repository for private usage along to the storage of my private work + training. <br />
