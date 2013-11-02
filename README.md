@@ -1,4 +1,4 @@
-Telmo R | Dev - Personal Project
+Telmo R | Dev - Personal Project - Archived
 =========
 
 This is my repository for private usage along to the storage of my private work + training. <br />
