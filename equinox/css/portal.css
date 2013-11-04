@@ -8,25 +8,54 @@ width: auto
 height: auto;
 }
 
-#img img {
-    margin-top: 25px;
+
+
+#logo img {
+
+	animation: 5s ease 0s normal none 1 fadein;
     font-size: 21px;
+    left: 541px;
+    margin-top: 25px;
+    position: absolute;
     text-align: center;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
 }
 
-#img2 img {
-	animation: 2s ease 0s normal none 1 fadein;
+#wrath img {
+    animation: 2s ease 0s normal none 1 fadein;
     font-size: 21px;
-    left: 200px;
+    left: 299px;
     margin-top: 25px;
     position: absolute;
     text-align: center;
     top: 246px;
+	z-index: 1:
 }
+
+
+#cata img {
+	animation: 2s ease 0s normal none 1 fadein;
+    font-size: 21px;
+    left: 820px;
+    margin-top: 25px;
+    position: absolute;
+    text-align: center;
+    top: 246px;
+	z-index: 1;
+}
+
+#cata img:hover {
+background-image: url('../img/soon.fw.png');
+background-repeat: no-repeat;
+position:absolute;
+z-index: 0;
+}
+#wrath img:hover {
+background-image: url('../img/soon.fw.png');
+background-repeat:no-repeat;
+position:absolute;
+z-index: 0;
+}
+
 
 @keyframes fadein {
     from {
