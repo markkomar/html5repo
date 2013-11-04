@@ -1,0 +1,24 @@
+body {
+background: black;
+}
+
+
+div {
+width: auto
+height: auto;
+}
+
+img .wrath {
+    left: 367px;
+    position: absolute;
+    right: 0;
+    top: 229px;
+}
+
+img .cata {
+
+    left: 367px;
+    position: absolute;
+    right: 0;
+    top: 229px;
+}
