@@ -1,12 +1,20 @@
 body {
-background: black;
+	background: black;
 }
 
 
 div {
-width: auto
-height: auto;
+	width: auto
+	height: auto;
 }
+
+#beta img {
+	left: -296px;
+    position: fixed;
+    top: -164px;
+}
+
+
 
 #logo img {
 

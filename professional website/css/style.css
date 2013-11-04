@@ -150,14 +150,12 @@ hr
 	margin:20px 0;
 }
 
-
 #img {
-	position: absolute;
-	float: right;
-	top: -11px;
-	left: -3px;
-	}
-
+    float: right;
+    left: -297px;
+    position: absolute;
+    top: -165px;
+}
 header
 {
 	position:relative;
