@@ -1,21 +1,80 @@
-body {
-	background: black;
+body, div, nav, img {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.boxes {
+display: none;
+}
+
+body { 
+background: #000;	
+font-family: 'Open Sans', sans-serif;
+color:#fff;
+}
+
+button {
+background: transparent;
+border: 0;
+color: white;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+a
+{
+	text-decoration:none;
+	color:inherit;
+	transition: color .5s ease;
+	
 }
 
 
 div {
-	width: auto
+	width: auto;
 	height: auto;
 }
 
+#about {
+left: 20px;
+position: absolute;
+top: 385px;
+font-family: 'Open Sans', sans-serif;
+color:#fff;
+animation: 10s ease 0s normal none 1 fadein;
+}
 
+nav {
+    bottom: 420px;
+    position: absolute;
+    right: 510px;
+}
+
+nav ul {
+    list-style: none outside none;
+}
+nav ul li {
+    display: block;
+    float: left;
+    padding: 3px 15px;
+}
+nav ul li a {
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+nav ul li a:hover {
+    color: #0059B2;
+}
 #beta img {
 	left: -296px;
     position: fixed;
     top: -164px;
+	
 }
-
-
 
 #logo img {
 
