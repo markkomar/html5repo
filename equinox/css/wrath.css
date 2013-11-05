@@ -11,9 +11,9 @@ display: none;
 }
 
 body { 
-background: #000;	
+background: url(../img/wrathback.jpg) no-repeat;	
 font-family: 'Open Sans', sans-serif;
-color:#fff;
+color:#B9B9C8;
 }
 
 button {
@@ -32,6 +32,11 @@ a
 	
 }
 
+* {margin: 0; padding: 0;}
+
+canvas {
+	display: block;
+}
 
 div {
 	width: auto;
@@ -43,12 +48,13 @@ left: 20px;
 position: absolute;
 top: 385px;
 font-family: 'Open Sans', sans-serif;
-color:#fff;
-animation: 10s ease 0s normal none 1 fadein;
+color:#0059B2;
+animation: 7s ease 0s normal none 1 fadein;
+animation: 15s ease 4s normal none 1 fadeout;
 }
 
 nav {
-    bottom: 420px;
+    bottom: 376px;
     position: absolute;
     right: 510px;
 }
@@ -64,6 +70,7 @@ nav ul li {
 nav ul li a {
     font-family: 'Open Sans',sans-serif;
     text-transform: uppercase;
+	text-height: strong;
     transition: all 0.25s ease 0s;
 }
 nav ul li a:hover {
@@ -81,7 +88,7 @@ nav ul li a:hover {
 	animation: 6s ease 0s normal none 1 fadein;
     font-size: 21px;
     left: 541px;
-    margin-top: 25px;
+    margin-top: -649px;
     position: absolute;
     text-align: center;
 }
@@ -118,6 +125,16 @@ nav ul li a:hover {
         opacity:1;
     }
 }
+
+@keyframes fadeout {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
 @-moz-keyframes fadein {
     from {
         opacity:0;
@@ -126,6 +143,16 @@ nav ul li a:hover {
         opacity:1;
     }
 }
+
+@-moz-keyframes fadeout {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
 @-webkit-keyframes fadein { 
     from {
         opacity:0;
@@ -134,11 +161,29 @@ nav ul li a:hover {
         opacity:1;
     }
 }
+
+@-webkit-keyframes fadeout { 
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
 @-o-keyframes fadein {
     from {
         opacity:0;
     }
     to {
         opacity: 1;
+    }
+}
+
+@-o-keyframes fadeout {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity: 0;
     }
 }
