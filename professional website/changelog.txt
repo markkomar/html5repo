@@ -1,95 +1,179 @@
+Nov 05, 2013
+
+    Updated images
+    Badspeed authored
+
+    Added a new project to the slideshow
+    Badspeed authored
+
+Nov 04, 2013
+
+    Added removed click prevention
+    Badspeed authored
+
+    Changed beta image to a lovely ribon :)
+    Badspeed authored
+
+   
+Nov 02, 2013
+
+    Updated Readme.md
+    Badspeed authored
+
+    Oops! Wrong files on the wrong place!
+    Badspeed authored
+
+    Archived Project
+    Badspeed authored
+
+Nov 01, 2013
+
+    Visit counter
+    Badspeed authored
+
+    Corrected "quotes" on quotes
+    Badspeed authored
+
+    More quotes
+    Badspeed authored 
+
+    Added Quotes
+    Badspeed authored 
+
+    Merge branch 'master' of https://github.com/Badspeed/html5repo
+    Badspeed authored 
+
+    Random Quote system
+    Badspeed authored 
+
+Oct 27, 2013
+
+    Update README.md
+    Badspeed authored 
+
+    Changes to tooltip display
+    Badspeed authored 
+
+    added icon
+    Badspeed authored 
+
+    Added Subject and some more changes
+    Badspeed authored 
+
+    Changed the tooptip behavior and style
+    Badspeed authored 
+
+    Cursor behavior on tooltip
+    Badspeed authored 
+
+    Contact Tooltip
+    Badspeed authored
+
+    dd2912b Forgot SQL (NIY)
+    Badspeed authored 
+
+    Added like feature and sql (NIY)
+    Badspeed authored
+
+Oct 26, 2013
+
+    22d5ab4 Part2
+    Badspeed authored
+
+    Added a changelog and changed the page name
+    Badspeed authored 
+
+
 Oct 25, 2013
 
     Separated Javascript from HTML. Server-side now
-    Badspeed authored 13 hours ago
+    Badspeed authored
 
     Right-click prevention script
-    Badspeed authored 13 hours ago
+    Badspeed authored 
 
     Prevent text selection
-    Badspeed authored 13 hours ago
+    Badspeed authored 
 
     More changes to linking
-    9ea8af6acf Browse code
-    Badspeed authored 16 hours ago
+    Badspeed authored 
 
     Final state of the page …
-    Badspeed authored 17 hours ago
+    Badspeed authored 
 
     missing file
-    Badspeed authored 20 hours ago
+    Badspeed authored 
 
     Right Click and Text Hightlight prevention
-    Badspeed authored 20 hours ago
+    Badspeed authored 
 
     few changes do the display
-    Badspeed authored 21 hours ago
+    Badspeed authored 
 
     Added my CV Project
-    Badspeed authored a day ago
+    Badspeed authored 
 
 Oct 24, 2013
 
 
     Bug fixes on the display and added more js files
-    Badspeed authored a day ago
+    Badspeed authored
 
     CSS Bug fixes
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     Responsive function for mobile phones
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     Slider Script
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     More CSS
-    Badspeed authored 2 days ago
+    Badspeed authored
 
-    003a557 Continuation …
-    Badspeed authored 2 days ago
+    003a557 Continuation
+    Badspeed authored
 
     Placeholders
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     More CSS
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
-    Started CSS 3 …
-    Badspeed authored 2 days ago
+    Started CSS 3
+    Badspeed authored 
 
     Killed whitespace
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     Finished the structure
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     Removed filler text and 1 menu item
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     More core scripting
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     Removed non-needed files
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     Added page CSS file and more scripting
-    Badspeed authored 2 days ago
-
+    Badspeed authored
     62dc632 Part2
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     Added assets for the page script
-    Badspeed authored 2 days ago
+    Badspeed authored 
 
     #c2b99ff forgot the css
-    Badspeed authored 2 days ago
+    Badspeed authored
 
     Inicial coding for the responsive part + css
-    Badspeed authored 2 days ago
+    Badspeed authored
 
     Initial commit
-    Badspeed authored 2 days ago
+    Badspeed authored
    
 
 
