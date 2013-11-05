@@ -44,19 +44,18 @@ div {
 }
 
 #about {
-left: 20px;
-position: absolute;
-top: 385px;
-font-family: 'Open Sans', sans-serif;
-color:#0059B2;
-animation: 7s ease 0s normal none 1 fadein;
-animation: 15s ease 4s normal none 1 fadeout;
+    animation: 7s ease 0s normal none 1 fadein;
+    color: #000000;
+    font-family: 'Open Sans',sans-serif;
+    left: 1005px;
+    position: absolute;
+    top: 61px;
 }
 
 nav {
-    bottom: 376px;
+    bottom: 624px;
     position: absolute;
-    right: 510px;
+    right: 0px;
 }
 
 nav ul {

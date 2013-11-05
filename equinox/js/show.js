@@ -3,9 +3,16 @@ $(document).ready(function() {
             var url = window.location.href;
             option = url.match(/option=(.*)/)[1];
             showDiv(option);
+			hideDiv(option);
         });
         function showDiv(option) {
             $('.boxes').hide();
             $('#' + option).show();
             $('#intro-tekst').hide();
+        }
+
+		function hideDiv(option) {
+            $('.boxes').show();
+            $('#' + option).hide();
+            $('#intro-tekst').show();
         }
