@@ -1,9 +1,9 @@
 window.onload = function(){
-
+	//canvas init
 	var canvas = document.getElementById("canvas");
 	var ctx = canvas.getContext("2d");
 	
-
+	//canvas dimensions
 	var W = window.innerWidth;
 	var H = window.innerHeight;
 	canvas.width = W;
@@ -15,14 +15,14 @@ window.onload = function(){
 	for(var i = 0; i < mp; i++)
 	{
 		particles.push({
-			x: Math.random()*W, 
-			y: Math.random()*H, 
-			r: Math.random()*4+1,
-			d: Math.random()*mp 
+			x: Math.random()*W, //x-coordinate
+			y: Math.random()*H, //y-coordinate
+			r: Math.random()*4+1, //radius
+			d: Math.random()*mp //density
 		})
 	}
 	
-	//draw the flakes
+	//Lets draw the flakes
 	function draw()
 	{
 		ctx.clearRect(0, 0, W, H);
@@ -40,6 +40,7 @@ window.onload = function(){
 	}
 	
 	//Function to move the snowflakes
+	//angle will be an ongoing incremental flag. Sin and Cos functions will be applied to it to create vertical and horizontal movements of the flakes
 	var angle = 0;
 	function update()
 	{
@@ -47,7 +48,10 @@ window.onload = function(){
 		for(var i = 0; i < mp; i++)
 		{
 			var p = particles[i];
-
+			//Updating X and Y coordinates
+			//We will add 1 to the cos function to prevent negative values which will lead flakes to move upwards
+			//Every particle has its own density which can be used to make the downward movement different for each flake
+			//Lets make it more random by adding in the radius
 			p.y += Math.cos(angle+p.d) + 1 + p.r/2;
 			p.x += Math.sin(angle) * 2;
 			

@@ -11,9 +11,14 @@ display: none;
 }
 
 body { 
-background: url(../img/wrathback.jpg) no-repeat;	
+background: url(../img/wrathback.jpg) no-repeat center center fixed; 	
 font-family: 'Open Sans', sans-serif;
 color:#B9B9C8;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position: fixed;
 }
 
 button {
