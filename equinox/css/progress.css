@@ -15,7 +15,7 @@ body {
 }
 
 #title h1 {
-  color: #FFFFFF;
+	color: #FFFFFF;
     font-size: 50px;
     left: 548px;
     position: absolute;
@@ -42,16 +42,23 @@ body {
 /*tooltip WIP*/
 
 a.tooltip {
-outline:none; 
+
+	outline:none; 
+	
 } 
 a.tooltip strong {
-line-height:30px;
+
+	line-height:30px;
+
 } 
 a.tooltip:hover {
-text-decoration:none;
+
+	text-decoration:none;
+	
 }
 a.tooltip span {
- display: none;
+
+	display: none;
     left: 680px;
     line-height: 16px;
     margin-left: auto;
@@ -63,27 +70,28 @@ a.tooltip span {
     z-index: 10;
 } 
 a.tooltip:hover span{ 
-display:inline; 
-position:absolute; 
-border:2px solid #FFF; 
-color:#EEE; 
-background:#000 url(src/css-tooltip-gradient-bg.png) repeat-x 0 0; 
+
+	display:inline; 
+	position:absolute; 
+	border:2px solid #FFF; 
+	color:#EEE; 
+	background:#000 url(src/css-tooltip-gradient-bg.png) repeat-x 0 0; 
 } 
 .callout {
-z-index:20;
+	z-index:20;
     left: 559px;
     position: absolute;
     top: 289px;
 } 
 
 a.tooltip span { 
-border-radius:2px;
- -moz-border-radius: 2px;
- -webkit-border-radius: 2px;
- -moz-box-shadow: 0px 0px 8px 4px #666;
- -webkit-box-shadow: 0px 0px 8px 4px #666;
-box-shadow: 0px 0px 8px 4px #666; 
-opacity: 0.8; }
+	border-radius:2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-box-shadow: 0px 0px 8px 4px #666;
+		-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666; 
+	opacity: 0.8; }
 
 /*bosses*/
 /*lower spire*/
