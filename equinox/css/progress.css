@@ -7,36 +7,103 @@ html, body {
 
 
 body {
-background: black;
-  z-index: -999;
+  background: black;
   min-height: 100%;
   min-width: 1024px;
   width: 100%;
   height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 #title h1 {
-color: white;
-font-size: 50px;
-text-align: center;
-position: static;
-}
-
-
-#banner img {
-  left: 352px;
+  color: #FFFFFF;
+    font-size: 50px;
+    left: 548px;
     position: absolute;
-    top: 181px;
+    text-align: center;
+    top: 65px;
+}
 }
 
+
+#icecrowncc div{
+    left: 20px;
+    position: absolute;
+    top: 496px;
+}
 
 #frame {
-zoom: 50%;
-top: -42px;
-left: 0px;
-position: absolute;
-width: auto;
+	top: -42px;
+	left: 0px;
+	position: fixed;
+	width: auto;
+}
+
+
+/*tooltip WIP*/
+
+a.tooltip {
+outline:none; 
+} 
+a.tooltip strong {
+line-height:30px;
+} 
+a.tooltip:hover {
+text-decoration:none;
+}
+a.tooltip span {
+ display: none;
+    left: 680px;
+    line-height: 16px;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 14px 20px;
+    position: absolute;
+    top: 499px;
+    width: auto;
+    z-index: 10;
+} 
+a.tooltip:hover span{ 
+display:inline; 
+position:absolute; 
+border:2px solid #FFF; 
+color:#EEE; 
+background:#000 url(src/css-tooltip-gradient-bg.png) repeat-x 0 0; 
+} 
+.callout {
+z-index:20;
+    left: 559px;
+    position: absolute;
+    top: 289px;
+} 
+
+a.tooltip span { 
+border-radius:2px;
+ -moz-border-radius: 2px;
+ -webkit-border-radius: 2px;
+ -moz-box-shadow: 0px 0px 8px 4px #666;
+ -webkit-box-shadow: 0px 0px 8px 4px #666;
+box-shadow: 0px 0px 8px 4px #666; 
+opacity: 0.8; }
+
+/*bosses*/
+/*lower spire*/
+#marrow {
+    left: 559px;
+    position: absolute;
+    top: 289px;
+}
+#lady {
+    left: 430px;
+    position: absolute;
+    top: 432px;
+}
+#gunship {
+    left: 640px;
+    position: absolute;
+    top: 509px;
+}
+#dbs {
+    left: 845px;
+    position: absolute;
+    top: 458px;
 }
